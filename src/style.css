@@ -4,8 +4,57 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+@media (max-width: 768px) {
+  .screenshots {
+    display: none;
+  }
+
+  .aboutme {
+    text-align: center;
+    font-size: 38px;
+  }
+
+  .contactme {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .fdlocation {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .about {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .yogaapp {
+    text-align: center !important;
+    font-size: 14px;
+  }
+
+  .welcome {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+  }
+
+  .apptitle {
+    text-align: center !important;
+    font-size: 32px;
+  }
+
+  .contact-link,
+  .about-link {
+    font-size: 14px;
+    line-height: 0px;
+    padding: 30px !important;
+  }
+}
+
 body {
-  margin: 60px auto;
+  margin: 0px 60px;
   max-width: 800px;
 }
 
